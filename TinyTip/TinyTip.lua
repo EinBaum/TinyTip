@@ -155,6 +155,11 @@ function TinyTip_DefaultDB()
 	db["ToT"] = 2	-- Unit: Show Target On Same Line As UnitName
 	db["ToP"] = 1	-- Party: Show Each Name
 	db["ToR"] = 1	-- Raid: Show # Of Players
+
+	-- EinBaum #3: Extra
+	db["PvPIcon"] = true
+	db["RTIcon"] = true
+	db["ManaBar"] = true
 end
 
 function TinyTip_GetDB()
