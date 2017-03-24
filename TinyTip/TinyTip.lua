@@ -661,9 +661,10 @@ end
 	end
 
 	-- Add Guild info, if enabled
-	tmp2 = _G.GetGuildInfo(unit)
+	-- EinBaum #2: Add guild rank
+	tmp2,tmp3 = _G.GetGuildInfo(unit)
 	if not db["HideGuild"] and tmp2 then
-		tmp = "<" .. tmp2 .. ">"
+		tmp = "<" .. tmp2 .. " | " .. tmp3 .. ">"
 		if _G.IsInGuild() and tmp2 == _G.GetGuildInfo("player") and db["Friends"] ~= 2 then
 			if not db["Friends"] and not _G.UnitIsUnit(unit, "player") and db["BGColor"] ~= 3 and db["BGColor"] ~= 1 then
 				bdR,bdG,bdB = 0.4, 0.1, 0.5
