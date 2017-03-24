@@ -150,6 +150,11 @@ function TinyTip_DefaultDB()
 			db[k] = nil
 		end
 	end
+
+	-- EinBaum #1: Default Settings
+	db["ToT"] = 2	-- Unit: Show Target On Same Line As UnitName
+	db["ToP"] = 1	-- Party: Show Each Name
+	db["ToR"] = 1	-- Raid: Show # Of Players
 end
 
 function TinyTip_GetDB()
