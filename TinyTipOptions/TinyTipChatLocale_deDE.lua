@@ -1,20 +1,9 @@
 --[[ TinyTip by Thrae
--- 
---
 -- German Localization
--- For TinyTipChat
---
--- Any wrong words, change them here.
--- 
--- TinyTipChatLocale should be defined in your FIRST localization
--- code.
---
--- Note: Other localization is in TinyTipLocale_deDE.
--- 
 -- Contributors: Gamefaq (thank you thank you thank you)
 --]]
 
-if TinyTipChatLocale and TinyTipChatLocale == "deDE" then
+if GetLocale() == "deDE" then
 	TinyTipChatLocale_MenuTitle = "TinyTip Optionen"
 
 	TinyTipChatLocale_On = "An"
@@ -258,7 +247,4 @@ if TinyTipChatLocale and TinyTipChatLocale == "deDE" then
 
 	TinyTipChatLocale_Confirm = "best\195\188tige" -- must be lowercase!
 	TinyTipChatLocale_Opt_Slash_Default = "standart" -- ditto
-
-	-- we're done with this.
-	TinyTipChatLocale = nil
 end

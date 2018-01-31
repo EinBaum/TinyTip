@@ -1,17 +1,9 @@
 --[[ TinyTip by Thrae
--- 
 -- French Localization
--- Any wrong words, change them here.
--- 
--- TinyTipLocale should be defined in your FIRST included
--- localization file.
---
--- Note: Localized slash commands are in TinyTipChatLocale_frFR.
---
 -- Contributors:
 --]]
 
-if TinyTipLocale and TinyTipLocale == "frFR" then
+if GetLocale() == "frFR" then
 	-- slash commands
 	SLASH_TINYTIP1 = "/tinytip"
 	SLASH_TINYTIP2 = "/ttip"
@@ -32,7 +24,4 @@ if TinyTipLocale and TinyTipLocale == "frFR" then
 	TinyTipLocale_RareElite		= "Elite Rare"
 
 	TinyTipLocale_Level = getglobal("LEVEL")
-
-	TinyTipLocale = nil -- we no longer need this
 end
-
