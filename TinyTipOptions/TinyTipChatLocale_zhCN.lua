@@ -1,20 +1,9 @@
 ﻿--[[ TinyTip by Thrae
--- 
---
 -- Simplified Chinese Localization
--- For TinyTipChat
---
--- Any wrong words, change them here.
--- 
--- TinyTipChatLocale should be defined in your FIRST localization
--- code.
---
--- Note: Other localization is in TinyTipLocale_zhCN.
--- 
 -- Contributors: hk2717
 --]]
 
-if TinyTipChatLocale and TinyTipChatLocale == "zhCN" then
+if GetLocale() == "zhCN" then
 	TinyTipChatLocale_MenuTitle = "TinyTip设置"
 
 	TinyTipChatLocale_On = "开启"
@@ -258,7 +247,4 @@ if TinyTipChatLocale and TinyTipChatLocale == "zhCN" then
 
 	TinyTipChatLocale_Confirm = "confirm" -- must be lowercase!
 	TinyTipChatLocale_Opt_Slash_Default = "default" -- ditto
-
-	-- we're done with this.
-	TinyTipChatLocale = nil
 end

@@ -1,19 +1,9 @@
 --[[ TinyTip by Thrae
--- 
 -- Chinese Localization
--- Any wrong words, change them here.
--- 
--- TinyTipLocale should be defined in your FIRST included
--- localization file.
---
--- Note: Localized slash commands are in TinyTipChatLocale_zhCN.
---
 -- Contributors: Yzerman
 --]]
 
-TinyTipLocale = GetLocale()
-
-if TinyTipLocale and TinyTipLocale == "zhCN" then
+if GetLocale() == "zhCN" then
 	-- slash commands
 	SLASH_TINYTIP1 = "/tinytip"
 	SLASH_TINYTIP2 = "/ttip"
@@ -33,6 +23,4 @@ if TinyTipLocale and TinyTipLocale == "zhCN" then
 	TinyTipLocale_RareElite		= "稀有精英"
 
 	TinyTipLocale_Level = getglobal("LEVEL")
-
-	TinyTipLocale = nil -- we no longer need this
 end
