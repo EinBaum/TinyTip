@@ -2,7 +2,7 @@
 ## Author: Thrae
 ## Title: TinyTip
 ## Notes: Adds reaction coloring, unit class / classification, race, and optionally pvp rank and guild to your tooltip. Default is stuck-to-mouse anchoring. Also ToT info and more. It's what Thrae wants in a tooltip.
-## Notes-ruRU: Улучшение всплающих подсказок.
+## Notes-ruRU: Улучшение всплывающих подсказок.
 ## $Revision: 7830 $
 ## SavedVariables: TinyTipDB
 ## SavedVariablesPerCharacter: TinyTipCharDB
